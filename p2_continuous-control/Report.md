@@ -43,4 +43,6 @@ At the end of `Continuous_Control_20.ipynb`, we test the trained agents and got 
 
 ### Ideas for Future Work
 
-For future improvement, any extension to the original DQN as described in the "Extensions to DQN" section of the [Rainbow Paper](https://arxiv.org/pdf/1710.02298.pdf) can be tried out.
+For future improvement, any extension to the original DQN as described in the "Extensions to DQN" section of the [Rainbow Paper](https://arxiv.org/pdf/1710.02298.pdf) can be tried out for critic network update. Techniques such as Bath Normalization can be tried with the network architecture to see if any improvement in training speed can be obtained.
+
+Also, other than DDPG, other DRL methods (e.g., PPO) can also be tried out to compare with the current performance.
