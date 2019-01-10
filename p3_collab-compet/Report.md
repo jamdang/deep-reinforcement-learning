@@ -39,7 +39,7 @@ The score of each episode during the training is plotted as follows.
 ![score v.s episode][image1]
 
 With the hyperparameters and the NN architecture described in the above section, the environment was solved in 2100 episodes	(The score reached 0.76 at epsidoe 2212).
-At the end of `Tennis.ipynb`, we test the trained agents for 10 episodes and 9 out of the 10 sample scores are more than 26.0, which basically means that the ball never dropped till the end of episode.
+At the end of `Tennis.ipynb`, we test the trained agents for 10 episodes and 9 out of the 10 sample scores are more than 2.6, which basically means that the ball never dropped till the end of episode.
 
 ### Ideas for Future Work
 
